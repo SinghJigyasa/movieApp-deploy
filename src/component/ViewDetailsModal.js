@@ -11,7 +11,7 @@ export const ViewDetailsModal = ({ show, onHide }) => {
 
   const getMoviesDetails = () => {
     axios
-      .get(`http://www.omdbapi.com/?i=${show.emdId}&apikey=aab08961`)
+      .get(`https://www.omdbapi.com/?i=${show.emdId}&apikey=aab08961`)
       .then((response) => {
         setMovieDetail(response.data);
       })
