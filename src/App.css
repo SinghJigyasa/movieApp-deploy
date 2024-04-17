@@ -1,0 +1,24 @@
+.movie-Style .row .moviecards {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.top_navbar .nav-item .nav-link {
+  color: #000;
+}
+
+.top_navbar .nav-item .nav-link:hover,
+.top_navbar .nav-item .nav-link.active {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+aside {
+  @media (min-width:992px) {
+    height: calc(100vh - 60px)
+  }
+}
+
+.profile .dropdown button.btn {
+  width: 100%;
+}
