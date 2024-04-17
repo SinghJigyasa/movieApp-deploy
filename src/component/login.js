@@ -64,9 +64,9 @@ const Login = () => {
                                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline" type="button" onClick={handleClick}>
                                     Sign In
                                 </button>
-                                <Link className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" to='/signup'>
+                                {/* <Link className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" to='/signup'>
                                     New User?
-                                </Link>
+                                </Link> */}
                             </div>
                         </form>
                     </div>
