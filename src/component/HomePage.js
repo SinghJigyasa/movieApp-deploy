@@ -31,7 +31,7 @@ function MovieListComp() {
 
   const getMovieList = () => {
     axios
-      .get(`http://www.omdbapi.com/?s=${searchKey}&apikey=aab08961`)
+      .get(`https://www.omdbapi.com/?s=${searchKey}&apikey=aab08961`)
       .then((response) => {
         SetMovieList(response.data);
       })
